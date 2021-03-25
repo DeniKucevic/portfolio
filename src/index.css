@@ -1,13 +1,39 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  padding: 0;
+  background-color: black;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+@font-face {
+  font-family: "Chopsic";
+  src: local("Chopsic-K6Dp"),
+    url(./assets/fonts/Chopsic-K6Dp.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Future";
+  src: local("FutureTechnoItalic-X3EPj"),
+    url(./assets/fonts/FutureTechnoItalic-X3EPj.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Paladins";
+  src: local("Paladins-nl8P"),
+    url(./assets/fonts/Paladins-nl8P.otf) format("truetype");
+}
+
+@font-face {
+  font-family: "PaladinsLaser";
+  src: local("PaladinsLaser-BERx"),
+    url(./assets/fonts/PaladinsLaser-BERx.otf) format("truetype");
 }
