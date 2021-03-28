@@ -1,9 +1,11 @@
 import React from "react";
 import Particles from "react-tsparticles";
 import MouseScroll from "../../components/MouseScroll";
+import ProjectPage from "../../components/ProjectPage/ProjectPage";
 import ScrollMotion from "../../components/ScrollMotion";
 import "./App.css";
 import options from "./particles-options";
+import Footer from "../../components/Footer/Footer";
 
 const App = () => {
   return (
@@ -20,7 +22,13 @@ const App = () => {
       <div className='test1'>
         <ScrollMotion />
       </div>
-      <div className='test'></div>
+      <div>
+        <ProjectPage></ProjectPage>
+      </div>
+      <div className='test3'></div>
+      <div className='parallax-content'>
+        <Footer />
+      </div>
     </div>
   );
 };
