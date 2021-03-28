@@ -1,9 +1,7 @@
 import React from "react";
 import { Parallax } from "react-parallax";
-import parallaxImage from "../../assets/images/parralax.png";
 
 const ProjectPage = () => {
-  const image = parallaxImage;
   return (
     <div>
       <Parallax
