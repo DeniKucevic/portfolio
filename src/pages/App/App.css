@@ -118,8 +118,7 @@
   height: 100px;
   padding: 130px 0;
 }
-.example:hover,
-.example:focus .fadedbox {
+.example:hover .fadedbox {
   opacity: 0.8;
 }
 
@@ -164,8 +163,7 @@
   transition: transform 0.7s ease-in-out;
 }
 
-.rotate:hover,
-.rotate:focus {
+.rotate:hover {
   transform: rotate(360deg);
 }
 
