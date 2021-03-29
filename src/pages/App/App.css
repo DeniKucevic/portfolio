@@ -118,7 +118,8 @@
   height: 100px;
   padding: 130px 0;
 }
-.example:hover .fadedbox {
+.example:hover,
+.example:focus .fadedbox {
   opacity: 0.8;
 }
 
@@ -145,9 +146,9 @@
   -webkit-transform: translateY(-130px);
 }
 
-.github-icon{
-width: 60px;
-margin: 10px 30px;
+.github-icon {
+  width: 60px;
+  margin: 10px 30px;
 }
 
 .page-4 {
@@ -156,7 +157,20 @@ margin: 10px 30px;
   justify-content: center;
   align-items: center;
   height: 100vh;
+}
 
+.rotate {
+  margin-top: 40px;
+  transition: transform 0.7s ease-in-out;
+}
+
+.rotate:hover,
+.rotate:focus {
+  transform: rotate(360deg);
+}
+
+.text-spacing {
+  margin-top: 40px;
 }
 
 @media screen and (max-width: 810px) {
@@ -224,8 +238,8 @@ margin: 10px 30px;
     padding: 2%;
   }
 
-  .github-icon{
+  .github-icon {
     width: 60px;
     margin: 10px 10px;
-    }
+  }
 }
