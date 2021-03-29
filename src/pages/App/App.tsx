@@ -1,11 +1,11 @@
 import React from "react";
 import Particles from "react-tsparticles";
 import MouseScroll from "../../components/MouseScroll";
-import ProjectPage from "../../components/ProjectPage/ProjectPage";
+import ProjectPage from "../../components/ProjectPage";
 import ScrollMotion from "../../components/ScrollMotion";
 import "./App.css";
 import options from "./particles-options";
-import Footer from "../../components/Footer/Footer";
+import Footer from "../../components/Footer";
 
 const App = () => {
   return (
