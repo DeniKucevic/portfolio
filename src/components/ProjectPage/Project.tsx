@@ -17,10 +17,10 @@ const Project: any = ({ image, desc, stack, github, live }: any): any => {
           </div>
           <br />
           <a href={github} target='_blank' rel='noreferrer noopener'>
-            <img src={gitHubIco} alt='GitHub' className='github-icon title' />
+            <img src={gitHubIco} alt='GitHub' className='github-icon title rotate' />
           </a>
           <a href={live} target='_blank' rel='noreferrer noopener'>
-            <img src={liveIco} alt='WWW' className='github-icon title' />
+            <img src={liveIco} alt='WWW' className='github-icon title rotate' />
           </a>
         </div>
       </div>
