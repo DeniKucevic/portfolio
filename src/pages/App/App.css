@@ -57,6 +57,10 @@
   z-index: 1;
 }
 
+.span-text {
+  font-family: "Paladins";
+}
+
 .test3 {
   height: 100vh;
 }
@@ -66,9 +70,105 @@
   background-color: white;
 }
 
+.parallax-content {
+  background-color: white;
+  transition: background-color 1s linear;
+}
+
+.project {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 2%;
+}
+
+.project-itemImage {
+  width: 350px;
+  height: 250px;
+  border-radius: 15px;
+}
+
+.example-wrapper {
+  margin: 0 auto;
+  padding-bottom: 2rem;
+}
+
+.example {
+  cursor: default;
+  height: 250px;
+  position: relative;
+  overflow: hidden;
+  width: 350px;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: -12px 12px 2px 1px rgba(0, 0, 0, 0.499);
+}
+.example .fadedbox {
+  background-color: #666666;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  -o-transition: all 300ms ease-out;
+  -ms-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+  opacity: 0;
+  width: 350px;
+  height: 100px;
+  padding: 130px 0;
+}
+.example:hover .fadedbox {
+  opacity: 0.8;
+}
+
+.example .text {
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  -o-transition: all 300ms ease-out;
+  -ms-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+  transform: translateY(30px);
+  -webkit-transform: translateY(30px);
+}
+.example .title {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  opacity: 0;
+  transition-delay: 0.2s;
+  transition-duration: 0.3s;
+}
+.example:hover .title,
+.example:focus .title {
+  opacity: 1;
+  transform: translateY(-130px);
+  -webkit-transform: translateY(-130px);
+}
+
+.github-icon{
+width: 60px;
+margin: 10px 30px;
+}
+
 .page-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.623);
+
+}
+
+@media screen and (max-width: 810px) {
+  .project {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 2%;
+  }
+
+  .span-text {
+    font-size: 20px !important;
+  }
 }
 
 @media screen and (max-width: 530px) {
@@ -87,6 +187,12 @@
   .hero-wrapper > h2 {
     font-family: "Future";
     margin-top: 3rem;
+  }
+
+  .project {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 2%;
   }
 }
 
@@ -107,4 +213,19 @@
     font-family: "Future";
     margin-top: 3rem;
   }
+
+  .span-text {
+    font-size: 14px !important;
+  }
+
+  .project {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 2%;
+  }
+
+  .github-icon{
+    width: 60px;
+    margin: 10px 10px;
+    }
 }

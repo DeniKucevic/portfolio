@@ -23,10 +23,9 @@ const App = () => {
         <ScrollMotion />
       </div>
       <div>
-        <ProjectPage></ProjectPage>
+        <ProjectPage />
       </div>
-      <div className='test3'></div>
-      <div className='parallax-content'>
+      <div>
         <Footer />
       </div>
     </div>
