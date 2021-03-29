@@ -1,11 +1,3 @@
-import {
-  Animator,
-  ScrollContainer,
-  ScrollPage,
-  batch,
-  Fade,
-  Sticky,
-} from "react-scroll-motion";
 import GitHub from "../../assets/icons/github.png"
 import Linkedin from "../../assets/icons/linkedin.png"
 import Facebook from "../../assets/icons/facebook-circular-logo.png"
